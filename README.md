@@ -9,3 +9,11 @@ Learn  different RDBMS
 There are several ways to connect to the database, we will look at two ways in this tutorial:
   - SQL Shell (psql)
   - pgAdmin 4
+
+```
+CREATE TABLE cars (
+  brand VARCHAR(255),
+  model VARCHAR(255),
+  year INT
+);
+```
